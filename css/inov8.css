@@ -1,92 +1,84 @@
 body {
-  background-image: url("../images/autumn.jpg");
-  background-size: cover;
-  }
-  .container{
+    background-image: url("../images/autumn.jpg");
+    background-size: cover;
+}
+.container {
     background-color: #2d2d30;
-    padding: 50px, 120px, 50px, 120px;
     width: 900px;
     opacity: 0.9;
-  }
-  .jumbotron {
-        color: #00cccc;
-        height: 200px;
-        margin-top: 20px;
-        background-color: #2d2d30;
-        text-align: justify;
-        opacity: 0.9;
-    }
-
-    .img-responsive{
-    margin: 0 auto;
+}
+.jumbotron {
+    color: #ff0000;
+    height: 200px;
+    margin-top: 20px;
+    background-color: #ff9900;
+    text-align: justify;
+    opacity: 0.9;
+}
+.img-responsive {
+    margin-top: 30px;
+    margin-left: 70px;
     height: 100px;
 }
-
-h1{
-  text-align: justify;
+h1 {
+    text-align: justify;
 }
 h3 {
+    font-size: 20px;
+    font-family: 'Rosarivo', serif;
+    text-align: center;
+    color: #fff;
+}
+p {
+    font-size: 14px;
+    text-align: justify;
+    color: #fff;
+}
+/*hides the text for the Authors*/
 
-   font-size: 30x;
-   font-family: 'Rosarivo', serif;
-   text-align: center;
-   color: #fff;
- }
- p {
-     font-size: 14px;
-     text-align: justify;
-     color: #fff;
+#collapse {
+    text-align: center;
+}
+/*Navigation bar specs*/
 
-   }
-   #collapse{
-     text-align: center;
-   }
 .navbar {
-      font-family: Montserrat, sans-serif;
-      margin-left: 170px;
-      background-color: #2d2d30;
-      border: 0;
-      font-size: 11px !important;
-      letter-spacing: 4px;
-      opacity: 0.9;
-      width: 900px;
-  }
-  * { box-sizing: border-box; }
-
-/* force scrollbar */
-html { overflow-y: scroll; }
-
-body { font-family: sans-serif; }
-
+    font-family: Montserrat, sans-serif;
+    margin-left: 163px;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
+    width: 900px;
+}
+* {
+    box-sizing: border-box;
+}
 /* ---- grid ---- */
 
 .grid {
-  background: #fff;
+    background: #fff;
 }
-
 /* clear fix */
-.grid:after {
-  content: '';
-  display: block;
-  clear: both;
-}
 
+.grid:after {
+    content: '';
+    display: block;
+    clear: both;
+}
 /* ---- .grid-item ---- */
 
 .grid-sizer,
 .grid-item {
-  width: 33.333%;
+    width: 33.333%;
 }
-
 .grid-item {
-  float: left;
+    float: left;
 }
-
 .grid-item img {
-  display: block;
-  max-width: 100%;
+    display: block;
+    max-width: 100%;
 }
-
-.bg-2{
-  margin-top: 20px;
+.bg-2 {
+    margin-top: 20px;
 }
