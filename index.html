@@ -7,11 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    </script>
-    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js">
     </script>
     <link rel="stylesheet" href="css/alma.css">
-    <link rel="stylesheet" href="js/alma.js">
   </head>
   <body>
     <nav class="navbar navbar-inverse">
@@ -38,7 +36,8 @@
         </p>
       </div>
     </div>
-    /<!--This code adds the grid to be able to doa mosaic of pictures.  Code for masonry-->
+    /
+    <!--This code adds the grid to be able to doa mosaic of pictures.  Code for masonry-->
     <div class="container">
       <div class="grid">
         <div class="grid-sizer">
@@ -52,14 +51,12 @@
         <div class="grid-item">
           <img src="images/valley.jpg" alt="clouds"/>
         </div>
-
         <div class="grid-item">
           <img src="images/falls.jpg" alt="refreshing"/>
         </div>
         <div class="grid-item">
           <img src="images/stars.jpg" alt="heaven"/>
         </div>
-
         <div class="grid-item">
           <img src="images/mont.jpg" alt="hike"/>
         </div>
@@ -74,112 +71,115 @@
         </div>
       </div>
     </div>
-    <div id="tour" class="bg-2">
+    <div id="poets" class="bg-2">
       <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <img class="img-responsive img-circle" src=images/Angelou.jpg alt="ang">
-          <a href="#demo2" data-toggle="collapse">
-            <h3>Maya Angelou
-            </h3>
-          </a>
-          <div class="collapse" id="demo1">
-            <p>
-              <em>Phenomenal Woman
-              </em>
+        <div class="row">
+          <div class="col-sm-4">
+            <a href="#demo" data-toggle="collapse">
+              <img src="images/maya.jpg" class="img-circle person" alt="Random Name">
+            </a>
+            <p class="text-center">
+              <strong>Maya Angelou
+              </strong>
             </p>
-            <p>Pretty women wonder where my secret lies.
-              I'm not cute or built to suit a fashion model's size
-              But when I start to tell them,
-              They think I'm telling lies.
-              I say,
-              It's in the reach of my arms
-              The span of my hips,
-              The stride of my step,
-              The curl of my lips.
-              I'm a woman
-              Phenomenally.
-              Phenomenal woman,
-              That's me.
-            </p>
+            <br>
+            <div id="demo" class="collapse">
+              <p>Pretty women wonder where my secret lies.
+                I'm not cute or built to suit a fashion model's size
+                But when I start to tell them,
+                They think I'm telling lies.
+                I say,
+                It's in the reach of my arms
+                The span of my hips,
+                The stride of my step,
+                The curl of my lips.
+                I'm a woman
+                Phenomenally.
+                Phenomenal woman,
+                That's me.
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="col-sm-4">
-          <img class="img-responsive img-circle" src=images/poe.jpg alt="ang">
-          <a href="#demo2" data-toggle="collapse">
-            <h3>Edgar Allen Poe
-            </h3>
-          </a>
-          <div id="demo2" class="collapse">
-            <p>
-              <em>A Dream Within A Dream
-              </em>
+          <div class="col-sm-4">
+            <a href="#demo2" data-toggle="collapse">
+              <img src="images/poe.jpg" class="img-circle person" alt="Random Name">
+            </a>
+            <p class="text-center">
+              <strong>Edgar Allen Poe
+              </strong>
             </p>
-            <p>Take this kiss upon the brow!
-              And, in parting from you now,
-              Thus much let me avow--
-              You are not wrong, who deem
-              That my days have been a dream;
-              Yet if hope has flown away
-              In a night, or in a day,
-              In a vision, or in none,
-              Is it therefore the less gone?
-              All that we see or seem
-              Is but a dream within a dream.
-              <br>
-              I stand amid the roar
-              Of a surf-tormented shore,
-              And I hold within my hand
-              Grains of the golden sand--
-              How few! yet how they creep
-              Through my fingers to the deep,
-              While I weep--while I weep!
-              O God! can I not grasp
-              Them with a tighter clasp?
-              O God! can I not save
-              One from the pitiless wave?
-              Is all that we see or seem
-              But a dream within a dream?
-            </p>
+            <br>
+            <div id="demo2" class="collapse">
+              <p>Take this kiss upon the brow!
+                And, in parting from you now,
+                Thus much let me avow--
+                You are not wrong, who deem
+                That my days have been a dream;
+                Yet if hope has flown away
+                In a night, or in a day,
+                In a vision, or in none,
+                Is it therefore the less gone?
+                All that we see or seem
+                Is but a dream within a dream.
+                <br>
+                I stand amid the roar
+                Of a surf-tormented shore,
+                And I hold within my hand
+                Grains of the golden sand--
+                How few! yet how they creep
+                Through my fingers to the deep,
+                While I weep--while I weep!
+                O God! can I not grasp
+                Them with a tighter clasp?
+                O God! can I not save
+                One from the pitiless wave?
+                Is all that we see or seem
+                But a dream within a dream?
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="col-md-4">
-          <img class="img-responsive img-circle" src=images/frost.jpg alt="ang">
-          <a href="#demo2" data-toggle="collapse">
-            <h3>Robert Frost
-            </h3>
-          </a>
-          <div class="collapse" id="demo3">
-            <p>
-              <em>The Road Not Taken
-              </em>
+          <div class="col-sm-4">
+            <a href="#demo3" data-toggle="collapse">
+              <img src="images/frost.jpg" class="img-circle person" alt="Random Name">
+            </a>
+            <p class="text-center">
+              <strong>Robert Frost
+              </strong>
             </p>
-            <p>Two roads diverged in a yellow wood,
-              And sorry I could not travel both
-              And be one traveler, long I stood
-              And looked down one as far as I could
-              To where it bent in the undergrowth;
-              Then took the other, as just as fair,
-              And having perhaps the better claim,
-              Because it was grassy and wanted wear;
-              Though as for that the passing there
-              Had worn them really about the same,
-              And both that morning equally lay
-              In leaves no step had trodden black.
-              Oh, I kept the first for another day!
-              Yet knowing how way leads on to way,
-              I doubted if I should ever come back.
-              I shall be telling this with a sigh
-              Somewhere ages and ages hence:
-              Two roads diverged in a wood, and I-
-              I took the one less traveled by,
-              And that has made all the difference.
-            </p>
+            <br>
+            <div id="demo3" class="collapse">
+              <p>Two roads diverged in a yellow wood,
+                And sorry I could not travel both
+                And be one traveler, long I stood
+                And looked down one as far as I could
+                To where it bent in the undergrowth;
+                Then took the other, as just as fair,
+                And having perhaps the better claim,
+                Because it was grassy and wanted wear;
+                Though as for that the passing there
+                Had worn them really about the same,
+                And both that morning equally lay
+                In leaves no step had trodden black.
+                Oh, I kept the first for another day!
+                Yet knowing how way leads on to way,
+                I doubted if I should ever come back.
+                I shall be telling this with a sigh
+                Somewhere ages and ages hence:
+                Two roads diverged in a wood, and I-
+                I took the one less traveled by,
+                And that has made all the difference.
+              </p>
+            </div>
           </div>
         </div>
       </div>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-   <!-- Include all compiled plugins (below), or include individual files as needed -->
-   <script src="js/bootstrap.min.js"></script>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+    </script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+    </script>
+    <script src="js/alma.js">
+    </script>
   </body>
 </html>
